@@ -1,0 +1,66 @@
+#redboard, #greenboard, #blueboard, #redsphere, #greensphere, #bluesphere {
+	margin: 10px;
+	display: inline-block;
+	height: 120px;
+}
+
+#colorpickerboard, #colorpickersphere, #shininesspickerboard, #shininesspickersphere, #radiuspickersphere, #waiting {
+	height: 160px;
+	width: 290px;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid #BFBFBF;
+}
+
+#resultboard {
+	margin: 20px 26px;
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	vertical-align: top;
+	color: rgb(204, 204, 204);
+	background: rgb(204, 204, 204);
+	border: 1px solid #fff;
+	box-shadow: 0 0 10px;
+}
+
+#resultsphere {
+	margin: 20px 26px;
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	vertical-align: top;
+	color: rgb(77, 77, 77);
+	background: rgb(77, 77, 77);
+	border: 1px solid #fff;
+	box-shadow: 0 0 10px;
+}
+
+
+#redsphere .noUi-connect {
+	background: #c0392b;
+}
+
+#greensphere .noUi-connect {
+	background: #27ae60;
+}
+
+#bluesphere .noUi-connect {
+	background: #2980b9;
+}
+
+#redboard .noUi-connect {
+	background: #c0392b;
+}
+
+#greenboard .noUi-connect {
+	background: #27ae60;
+}
+
+#blueboard .noUi-connect {
+	background: #2980b9;
+}
+
+div {
+	font-family: "Helvetica";
+}

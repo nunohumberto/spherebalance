@@ -1,0 +1,15 @@
+{
+  "name": "projcv",
+  "version": "1.0.0",
+  "description": "Projecto de CV",
+  "main": "app.js",
+  "dependencies": {
+    "socket.io": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nuno Humberto",
+  "license": "ISC"
+}

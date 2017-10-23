@@ -1,0 +1,23 @@
+<script src="/socket.io/socket.io.js"></script>
+<script>
+
+var socket = io('http://192.168.1.5:8080');  // Alterar para IP do computador
+
+socket.on('connect', function (data) {
+	console.log(data);
+	socket.emit('user_is_phone', {});
+ });
+ 
+function orientationHandler(event) {
+	var absolute = event.absolute;
+	var alpha    = event.alpha;
+	var beta     = event.beta;
+	var gamma    = event.gamma;
+	socket.emit('gyrodata', { yaw: alpha, pitch: beta, roll: gamma });
+}
+  
+ window.addEventListener('deviceorientation', orientationHandler, false);
+   
+  
+
+</script>

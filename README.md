@@ -7,4 +7,5 @@ It mimics the movements you apply to your mobile device and challenges you to ke
 
 Rudimentary physics and collision detection are used to simulate the interaction of the involved elements.
 
-This small project represents my first contact with both WebGL and WebSockets. 
+
+This small project represents my first contact with both WebGL, node.js and WebSockets. 
